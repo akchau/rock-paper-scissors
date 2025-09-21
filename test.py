@@ -1,3 +1,4 @@
+""" Модуль запуска тестов """
 import logging
 import os
 import sys
@@ -11,6 +12,7 @@ sys.path.append(os.path.join(Path(__file__).resolve().parent, "tests"))
 
 
 def log():
+    """ Метод-заглушка для добавления логов в тесты """
     pass
 
 
