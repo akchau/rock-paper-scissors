@@ -1,7 +1,7 @@
 """ Тесты различных комбинаций для 3-x игроков """
 import unittest
 
-from core import Choice, play, PlayerChoice, RoundData
+from src.core import Choice, play, PlayerChoice, RoundData
 
 
 class TestPlay(unittest.IsolatedAsyncioTestCase):

@@ -10,9 +10,9 @@ python test.py
 ```
 # Проверка типов
 ```bash
-mypy core.py
+mypy src/ tests/
 ```
 # Запуск линтера
 ```bash
-pylint core.py
+pylint src/ tests/ test.py
 ```
